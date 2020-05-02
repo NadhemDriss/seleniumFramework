@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Free CRM test" duration-ms="187383" started-at="2020-04-30T15:27:41 CEST" finished-at="2020-04-30T15:30:48 CEST">
+    <groups>
+    </groups>
+    <test name="end to end test" duration-ms="187383" started-at="2020-04-30T15:27:41 CEST" finished-at="2020-04-30T15:30:48 CEST">
+      <class name="Com.freeCRM.Testcases.HomePage">
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:Com.freeCRM.Testcases.HomePage@7a1ebcd8]" name="login" is-config="true" duration-ms="18078" started-at="2020-04-30T15:27:41 CEST" finished-at="2020-04-30T15:27:59 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="clickContact(java.lang.reflect.Method)[pri:1, instance:Com.freeCRM.Testcases.HomePage@7a1ebcd8]" name="clickContact" duration-ms="2970" started-at="2020-04-30T15:27:59 CEST" finished-at="2020-04-30T15:28:02 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Com.freeCRM.Testcases.HomePage.clickContact(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickContact -->
+      </class> <!-- Com.freeCRM.Testcases.HomePage -->
+      <class name="Com.freeCRM.Testcases.ContactPageTest">
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:Com.freeCRM.Testcases.ContactPageTest@528931cf]" name="login" is-config="true" duration-ms="19713" started-at="2020-04-30T15:29:15 CEST" finished-at="2020-04-30T15:29:35 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="addContact(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Com.freeCRM.Testcases.ContactPageTest@528931cf]" name="addContact" duration-ms="11455" started-at="2020-04-30T15:29:35 CEST" data-provider="Data2" finished-at="2020-04-30T15:29:46 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[prénom]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[company]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addContact -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:Com.freeCRM.Testcases.ContactPageTest@528931cf]" name="quit" is-config="true" duration-ms="182" started-at="2020-04-30T15:29:46 CEST" finished-at="2020-04-30T15:29:46 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:Com.freeCRM.Testcases.ContactPageTest@528931cf]" name="login" is-config="true" duration-ms="18267" started-at="2020-04-30T15:29:46 CEST" finished-at="2020-04-30T15:30:04 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="addContact(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Com.freeCRM.Testcases.ContactPageTest@528931cf]" name="addContact" duration-ms="12335" started-at="2020-04-30T15:30:04 CEST" data-provider="Data2" finished-at="2020-04-30T15:30:17 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fdizd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[deajzgkn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[lg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addContact -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:Com.freeCRM.Testcases.ContactPageTest@528931cf]" name="quit" is-config="true" duration-ms="170" started-at="2020-04-30T15:30:17 CEST" finished-at="2020-04-30T15:30:17 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:Com.freeCRM.Testcases.ContactPageTest@528931cf]" name="login" is-config="true" duration-ms="18592" started-at="2020-04-30T15:30:17 CEST" finished-at="2020-04-30T15:30:36 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="addContact(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Com.freeCRM.Testcases.ContactPageTest@528931cf]" name="addContact" duration-ms="12719" started-at="2020-04-30T15:30:36 CEST" data-provider="Data2" finished-at="2020-04-30T15:30:48 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[raed]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b3absi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[samsung]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addContact -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:Com.freeCRM.Testcases.ContactPageTest@528931cf]" name="quit" is-config="true" duration-ms="181" started-at="2020-04-30T15:30:48 CEST" finished-at="2020-04-30T15:30:48 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Com.freeCRM.Testcases.ContactPageTest -->
+      <class name="Com.freeCRM.Testcases.LoginPage">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:Com.freeCRM.Testcases.LoginPage@5faeada1]" name="setUp" is-config="true" duration-ms="12454" started-at="2020-04-30T15:28:02 CEST" finished-at="2020-04-30T15:28:15 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="titleTest(java.lang.String, java.lang.String)[pri:0, instance:Com.freeCRM.Testcases.LoginPage@5faeada1]" name="titleTest" duration-ms="5309" started-at="2020-04-30T15:28:15 CEST" data-provider="Data1" finished-at="2020-04-30T15:28:20 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[driss_nadhem10@hotmail.fr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nadhemdriss]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:Com.freeCRM.Testcases.LoginPage@5faeada1]" name="quit" is-config="true" duration-ms="322" started-at="2020-04-30T15:28:20 CEST" finished-at="2020-04-30T15:28:20 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:Com.freeCRM.Testcases.LoginPage@5faeada1]" name="setUp" is-config="true" duration-ms="12143" started-at="2020-04-30T15:28:20 CEST" finished-at="2020-04-30T15:28:32 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="titleTest(java.lang.String, java.lang.String)[pri:0, instance:Com.freeCRM.Testcases.LoginPage@5faeada1]" name="titleTest" duration-ms="4299" started-at="2020-04-30T15:28:32 CEST" data-provider="Data1" finished-at="2020-04-30T15:28:37 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[111]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[222]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:Com.freeCRM.Testcases.LoginPage@5faeada1]" name="quit" is-config="true" duration-ms="227" started-at="2020-04-30T15:28:37 CEST" finished-at="2020-04-30T15:28:37 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:Com.freeCRM.Testcases.LoginPage@5faeada1]" name="setUp" is-config="true" duration-ms="12551" started-at="2020-04-30T15:28:37 CEST" finished-at="2020-04-30T15:28:49 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="titleTest(java.lang.String, java.lang.String)[pri:0, instance:Com.freeCRM.Testcases.LoginPage@5faeada1]" name="titleTest" duration-ms="4809" started-at="2020-04-30T15:28:49 CEST" data-provider="Data1" finished-at="2020-04-30T15:28:54 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[driss_nadhem10@hotmail.fr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:Com.freeCRM.Testcases.LoginPage@5faeada1]" name="quit" is-config="true" duration-ms="266" started-at="2020-04-30T15:28:54 CEST" finished-at="2020-04-30T15:28:55 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:Com.freeCRM.Testcases.LoginPage@5faeada1]" name="setUp" is-config="true" duration-ms="13044" started-at="2020-04-30T15:28:55 CEST" finished-at="2020-04-30T15:29:08 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="titleTest(java.lang.String, java.lang.String)[pri:0, instance:Com.freeCRM.Testcases.LoginPage@5faeada1]" name="titleTest" duration-ms="5877" started-at="2020-04-30T15:29:08 CEST" data-provider="Data1" finished-at="2020-04-30T15:29:13 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[222]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nadhemdriss]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:Com.freeCRM.Testcases.LoginPage@5faeada1]" name="quit" is-config="true" duration-ms="271" started-at="2020-04-30T15:29:13 CEST" finished-at="2020-04-30T15:29:14 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Com.freeCRM.Testcases.LoginPage -->
+    </test> <!-- end to end test -->
+  </suite> <!-- Free CRM test -->
+</testng-results>

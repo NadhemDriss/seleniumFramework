@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Free CRM test]">
+  <test thread-count="5" name="end to end test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Com.freeCRM.Testcases.ContactPageTest">
+        <methods>
+          <include name="login"/>
+          <include name="addContact" invocation-numbers="2"/>
+        </methods>
+      </class> <!-- Com.freeCRM.Testcases.ContactPageTest -->
+    </classes>
+  </test> <!-- end to end test(failed) -->
+</suite> <!-- Failed suite [Free CRM test] -->
